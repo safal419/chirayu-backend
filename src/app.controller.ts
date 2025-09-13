@@ -8,7 +8,7 @@ export class AppController {
   @Get()
   getHello(){
     return{
-      message: "Hello World!"
+      message: "Hello World! This is working from vercel"
     }
   }
 
