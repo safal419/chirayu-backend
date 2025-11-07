@@ -3,11 +3,13 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { FileModule } from './modules/file/file.module';
 import { NoticesModule } from './modules/notices/notices.module';
+import { AcademicsModule } from './modules/academics/academics.module';
 import { EventsModule } from './modules/events/events.module';
 import { GalleryModule } from './modules/gallery/gallery.module';
 import { ResultsModule } from './modules/results/results.module';
 import { ArticlesModule } from './modules/article/article.module';
 import { AlumniModule } from './modules/alumni/alumni.module';
+import { PopupImageModule } from './modules/popup/popup.module';
 
 @Module({
   imports: [
@@ -19,9 +21,9 @@ import { AlumniModule } from './modules/alumni/alumni.module';
     GalleryModule,
     ResultsModule,
     ArticlesModule,
-    AlumniModule
-    
-
+    AlumniModule,
+    AcademicsModule,
+    PopupImageModule
   ],
   controllers: [],
   providers: [],
