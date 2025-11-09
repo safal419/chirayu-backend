@@ -10,6 +10,7 @@ import { ResultsModule } from './modules/results/results.module';
 import { ArticlesModule } from './modules/article/article.module';
 import { AlumniModule } from './modules/alumni/alumni.module';
 import { PopupImageModule } from './modules/popup/popup.module';
+import { AuthModule } from './modules/auth/auth.module';
 
 @Module({
   imports: [
@@ -23,7 +24,8 @@ import { PopupImageModule } from './modules/popup/popup.module';
     ArticlesModule,
     AlumniModule,
     AcademicsModule,
-    PopupImageModule
+    PopupImageModule,
+    AuthModule
   ],
   controllers: [],
   providers: [],
